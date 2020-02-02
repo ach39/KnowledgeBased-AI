@@ -3,6 +3,9 @@
 Design and implementation of an AI agent that can solve 2x2 as well as 3x3 Raven’s Progressive Matrices (RPM).
 This six months long projects was developed in three phases, incrementally buidling upon Knowledge-Based AI principles and framework. 
 
+<img src="https://github.com/ach39/KnowledgeBased-AI/blob/master/imgs/framework.png" height="400" width="730">
+
+----
 
 ### 1. _Problem-solving approach and design considerations_
 
@@ -10,14 +13,20 @@ Agent uses ‘Classification’ to categorize RPM problems either as 2x2 or 3x3 
 
 In some cases Pillow APIs are not sufficient to detect the transformation reliably. In such scenarios, Agent converts the image to a numpy array and perform some thresholding before checking for any transformation.
 
-### 2. _Results_   
+----
+
+### 2. _Simplified view of Agent’s framework_
+
+<img src="https://github.com/ach39/KnowledgeBased-AI/blob/master/imgs/Agent's%20framework.png" height="400" width="700">
+
+----
+### 3. _Agent's Answer selection process_
+
+<img src="https://github.com/ach39/KnowledgeBased-AI/blob/master/imgs/answer_selection.png" height="400" width="800">
+
+----
+
+### 4. _Results_   
 Agent finished Basic and Challenge questions (96 questions in all) in 2 mins 9secs, with 1.34 secs of average timer per question, achieveing 93% (89/96) accuracy. 
 
 <img src="https://github.com/ach39/KnowledgeBased-AI/blob/master/imgs/results.png" height="200" width="300">
-
-
-### 3. _Simplified view of Agent’s framework_
-![framework](https://github.com/ach39/KnowledgeBased-AI/blob/master/imgs/Agent's%20framework.png)
-
-### 4. _Agent's Answer selection process_
-![Answer Selection](https://github.com/ach39/KnowledgeBased-AI/blob/master/imgs/answer_selection.png)
