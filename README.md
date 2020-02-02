@@ -30,3 +30,14 @@ In some cases Pillow APIs are not sufficient to detect the transformation reliab
 Agent finished Basic and Challenge questions (96 questions in all) in 2 mins 9secs, with 1.34 secs of average timer per question, achieveing 93% (89/96) accuracy. 
 
 <img src="https://github.com/ach39/KnowledgeBased-AI/blob/master/imgs/results.png" height="200" width="300">
+
+--- 
+
+### 5. _Cognitive Connection_
+
+Agent mimics human’s visuospatial reasoning approach when solving RPM problem.It exhibits some aspects of human intelligence where it reasons and performs some learning.It goes for easier transformation first and if no answer is found, it then tries for more complex transformations, just like we humans do.
+
+However it lack meta-thinking.It differs from human as it has boubded rationality and self-learning ability. It is not able to determine why and where it failed and employ self-correction. 
+
+How might we add meta-cognition ? If interested, ![click here](https://github.com/ach39/KnowledgeBased-AI/blob/master/Agent%20with%20meta-cognition.pdf)
+
