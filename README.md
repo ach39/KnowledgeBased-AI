@@ -12,7 +12,8 @@ In some cases Pillow APIs are not sufficient to detect the transformation reliab
 
 ### 2. _Results_   
 Agent finished Basic and Challenge questions (96 questions in all) in 2 mins 9secs, with 1.34 secs of average timer per question, achieveing 93% (89/96) accuracy. 
-![results](https://github.com/ach39/KnowledgeBased-AI/blob/master/imgs/results.png)
+
+<img src="https://github.com/ach39/KnowledgeBased-AI/blob/master/imgs/results.png" height="200" width="300">
 
 
 ### 3. _Simplified view of Agent’s framework_
